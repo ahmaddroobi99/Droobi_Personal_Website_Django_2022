@@ -160,7 +160,7 @@ nbformat==5.1.3
 nest-asyncio==1.5.1
 nltk==3.6.7
 nodeenv==1.6.0
-notebook==6.4.4
+notebook==6.4.12
 ntplib==0.4.0
 numpy==1.19.3
 oauthlib==3.0.1
