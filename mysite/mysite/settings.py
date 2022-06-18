@@ -9,10 +9,12 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import django_heroku
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -75,13 +77,27 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'd33c0000q73vaj',
+
+        'USER': 'zfcalroyalqdjb',
+
+        'PASSWORD': 'fbd544a68e2a9a96d14a316d75c26963d3011b69cfd08c2c3c0b17d1ef96c020',
+
+        'HOST': 'ec2-54-157-16-196.compute-1.amazonaws.com',
+
+        'PORT': '5432',
+
     }
+
 }
 
-
+STATIC_ROOT= os.path.join(BASE_DIR,'static_media/')
+django_heroku.settings(locals())
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
