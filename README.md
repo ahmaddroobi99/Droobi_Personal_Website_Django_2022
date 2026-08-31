@@ -1,19 +1,12 @@
-# Droobi_Personal_Website_Django_2022
+# 2022 Django personal website
 
-its mine ,and My Code , now my code talking about me :)
+A Django personal site (`mysite/`) from June 2022. Student portfolio of that year — not the current site.
 
-This repository is **original work** on this account. It is kept for provenance.
+Current portfolio: [ahmaddroobi99.github.io](https://ahmaddroobi99.github.io/).
 
-It is **not** current research. Featured work:
+**Stack:** Python, Django, HTML
 
-- [qg-lada-lab](https://github.com/ahmaddroobi99/qg-lada-lab) — QG Lagrangian data assimilation
-- [ai-perception-lab](https://github.com/ahmaddroobi99/ai-perception-lab) — computer vision lab
-- Profile: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
+---
+Historical **BSc Computer Engineering** work (An-Najah National University, 2022). Kept for provenance — not current research.
 
-## Language
-
-HTML
-
-## Year
-
-2022
+Current work: [github.com/ahmaddroobi99](https://github.com/ahmaddroobi99)
